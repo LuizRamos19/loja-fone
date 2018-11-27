@@ -2,7 +2,7 @@ header {
     background-color: #e24647;
     overflow: hidden;
     color: #FFF;
-    margin: 0 115px;
+    margin: 50% 115px;
     padding: 55px 60px 95px;
 }
 
@@ -25,6 +25,7 @@ nav {
 }
 
 button {
+    border: none;
     margin: 0 165px;
     color: #FFF;
     width: 199px;
