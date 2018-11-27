@@ -23,3 +23,12 @@ nav {
     font-family: 'Segoe UI', 'Robot', sans-serif;
     float: right;
 }
+
+button {
+    margin: 0 165px;
+    color: #FFF;
+    width: 199px;
+    height: 60px;
+    background-color: #252c41;
+    float: right;
+}
