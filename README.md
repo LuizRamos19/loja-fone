@@ -23,7 +23,6 @@ Para deixar o estilo da página igual para todos os browsers, é preciso setar a
 `Herança de atributos de estilo`
 
 Quando quisermos que mais de um componente possua o mesmo atributo, como por exemplo a mesma cor, podemos adicionar esse atributo em um componente pai, e herdar esse estilo em um componente filho. No exemplo de um link, a tag _`<a link>`_ possui seu próprio estilo de cor, agora se quisermos que essa tag utilize o atributo de um componente pai, basta adicionarmos o estilo abaixo na tag _`<a link`_, isso significa que ele herda a propriedade de um componente pai.
-
 ```
 color: inherit;
 ```
@@ -31,7 +30,6 @@ color: inherit;
 `Font-family`
 
 As famílias das fontes precisam ser sempre acompanhadas de mais de um tipo para que o layout possa ter o design mais parecido em todos os sistemas operacionais, por exemplo a fonte Arial existe apenas no Windows.
-
 ```
 font-family: 'Arial', 'Roboto', sans-serif;
 ```
@@ -48,7 +46,6 @@ O atributo _`float`_ cria um novo contexto no browser, e todos os elementos que 
 - O width e height do componente dimensiona de acordo com o conteúdo do conteúdo;
 
 Para forçar com que o browser recalcule o contexto para que possa enxergar os componentes que estão com float dentro dele, é necessário inserir a propriedade abaixo do componente pai.
-
 ```
 overflow: hidden;
 ```
@@ -58,7 +55,6 @@ A propriedade acima limita o conteúdo do componente ao width e height máximo d
 `Respiro externo`
 
 Utilizado principalmente pelos designers quando querem informar que o layout precisa de uma margem. Serve para distanciar um elemento do outro. Para criar esses respiros externos basta selecionar as propriedades abaixo:
-
 ```
 margin-left: 116px;
 margin-right: 115px;
@@ -83,7 +79,6 @@ margin: 110px;
 `Respiro interno`
 
 Segue os mesmos padrões do _`respiro externo`_ mas referente aos componentes que estão dentro do componente pai. Para isso basta adicionar as propriedades:
-
 ```
 padding-left: 36px;
 padding-right: 35px;
@@ -103,4 +98,31 @@ padding: 30px 35px 31px;
 
 /* padding: top/bottom/right/left; */
 padding: 31px;
+```
+
+`Alinhamento horizontal e vertical`
+
+Para alinhar horizontalmente um texto, a propriedade _`text-align`_ faz isso. Entretanto, para alinhar os elementos verticalmente, mas apenas com uma linha de texto, como no caso dos botões, basta usar o _`line-height`_ e colocar o height no mesmo tamanho do height do botão.
+
+```
+text-align: center; // right, left, etc
+line-height: 60px; // ou o mesmo height do botão
+
+```
+
+`Propriedade display`
+
+O _`display inline`_ deixa os elementos na mesma linha, e não consegue definir o width e height (Esses elementos não funcionam com elementos que possuem display inline)
+```
+display: inline;
+```
+
+O _`display block`_ não deixa os elementos na mesma linha, mas permite mudar o width e height
+```
+display: block;
+```
+
+O _`display inline block`_ junta as vantages dos dois elemento acima, deixa os elementos na mesma linha e deixa alterar o width e height
+```
+display: inline-block;
 ```
