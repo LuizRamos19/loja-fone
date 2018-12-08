@@ -138,7 +138,20 @@ top: right; // left, bottom
 ```
 
 Para relacionar os elementos de forma dinâmica, podemos utilizar a propriedade transform.
-
 ```
 transform: translateX(-50%) translateY(-50%);
+```
+
+O _`vertical-align`_ faz com que dois elementos que sejam `display inline-block` fiquem alinhados verticalmente.
+```
+vertical-align: top;
+```
+
+`Emmet`
+
+É uma tecnologia css para escrever as coisas mais rápido. No visual coe já vem instalado por padrão, se não vier, só ir em emmet.io e instalar.
+
+O `box-sizing` define o dimensionamento que o elemento terá dependendo de outro elemento. No caso, se ele estiver como `box-sizing: content-box` pegará o tamanho e largura do elemento e somará, se estiver com `box-sizing: border-box` pegará o tamanho e largura do elemento e subtrará do elemento.
+```
+box-sizing: border-box;
 ```
