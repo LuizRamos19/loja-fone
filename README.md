@@ -57,7 +57,7 @@ A propriedade acima limita o conteúdo do componente ao width e height máximo d
 
 `Respiro externo`
 
-Utilizado principalmente pelos designers quando querem informar que o layout precisa de uma margem. Para criar esses respiros externos basta selecionar as propriedades abaixo:
+Utilizado principalmente pelos designers quando querem informar que o layout precisa de uma margem. Serve para distanciar um elemento do outro. Para criar esses respiros externos basta selecionar as propriedades abaixo:
 
 ```
 margin-left: 116px;
@@ -82,7 +82,7 @@ margin: 110px;
 
 `Respiro interno`
 
-Segue os mesmos padrões do _`respiro externo`_ mas referente aos componentes que estão dentro do componente. Para isso basta adicionar as propriedades:
+Segue os mesmos padrões do _`respiro externo`_ mas referente aos componentes que estão dentro do componente pai. Para isso basta adicionar as propriedades:
 
 ```
 padding-left: 36px;
