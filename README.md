@@ -126,3 +126,19 @@ O _`display inline block`_ junta as vantages dos dois elemento acima, deixa os e
 ```
 display: inline-block;
 ```
+
+`Propriedade position`
+
+O _`position absolute`_ faz com que consigamos mover os elementos de forma absoluta. Assim como o `float`, ele cria também um novo contexto. O que define a largura e altura é o conteúdo que se encontra dentro do elemento.
+
+Em conjunto com o position, pode-se usar o `top: bottom, left, right` mover em relação a página.
+```
+position: absolute;
+top: right; // left, bottom
+```
+
+Para relacionar os elementos de forma dinâmica, podemos utilizar a propriedade transform.
+
+```
+transform: translateX(-50%) translateY(-50%);
+```
