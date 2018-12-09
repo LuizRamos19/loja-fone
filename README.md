@@ -149,7 +149,14 @@ vertical-align: top;
 
 `Emmet`
 
-É uma tecnologia css para escrever as coisas mais rápido. No visual coe já vem instalado por padrão, se não vier, só ir em emmet.io e instalar.
+É uma tecnologia para escrever códigos mais rápido. No visual code já vem instalado por padrão, se não vier, só ir em emmet.io e instalar.
+
+Exemplo para escrever várias dl, dt e dd:
+```
+dl>dt{Fone top, feliz e caro}+dd*7
+
+button.button-store.-second{Adicionar texto}
+```
 
 O `box-sizing` define o dimensionamento que o elemento terá dependendo de outro elemento. No caso, se ele estiver como `box-sizing: content-box` pegará o tamanho e largura do elemento e somará, se estiver com `box-sizing: border-box` pegará o tamanho e largura do elemento e subtrará do elemento.
 ```
@@ -172,3 +179,6 @@ Entretanto, como é apenas uma classe secundária que está implementando uma cl
 }
 ```
 
+`Description list (dl), Description title (dt), Description define (dd)`
+
+Quando for realizar a descrição de um produto ou qualquer outra coisa existe as tags acima.
