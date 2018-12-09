@@ -155,3 +155,20 @@ O `box-sizing` define o dimensionamento que o elemento terá dependendo de outro
 ```
 box-sizing: border-box;
 ```
+
+`Variação no CSS`
+
+Variação no CSS significa que uma classe implementa determinas propriedas adicionais além da classe principal da qual está sendo implementada. A sintaxe é sempre escrita com _`-`_ antes do nome da classe.
+```
+-second {
+
+}
+```
+
+Entretanto, como é apenas uma classe secundária que está implementando uma classe principal, precisamos informar ao CSS que essa classe secundário só funcionará se tiver a classe primária também, para isso basta escrever da seguinte forma.
+```
+.button-store.-second {
+
+}
+```
+
