@@ -7,3 +7,45 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+
+.list-description {
+    color: #fff;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    text-align: left;
+}
+
+.title-description {
+    font-size: 25px;
+    margin-top: 145px;
+    margin-bottom: 100px;
+}
+
+.score {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.score.-price {
+    margin-bottom: 26px;
+}
+
+.score.-price.last {
+    margin-bottom: 0;
+}
+
+.product-description {
+    margin-top: 73px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.details {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container-button>dd {
+    display: inline-block;
+    margin-top: 100px;
+}
