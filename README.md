@@ -112,7 +112,7 @@ line-height: 60px; // ou o mesmo height do botão
 
 `Propriedade display`
 
-O _`display inline`_ deixa os elementos na mesma linha, e não consegue definir o width e height (Esses elementos não funcionam com elementos que possuem display inline)
+O _`display inline`_ deixa os elementos na mesma linha, e não consegue definir o width e height. Essa propriedade também faz o elemento ter o comportamento de uma palavra, ou seja, conteúdo. (Esses elementos não funcionam com elementos que possuem display inline)
 ```
 display: inline;
 ```

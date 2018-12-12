@@ -1,25 +1,15 @@
 .product-description {
+    font-family: "Roboto", sans-serif;
     color: #fff;
-    font-family: 'Roboto', 'Arial', sans-serif;
-    text-align: left;
-    width: 50%;
-    float: right;
-}
-
-.product-description > .fone-image {
-    float: left;
-    margin-top: 120px;
-    width: 50%;
 }
 
 .product-description > .title {
     font-size: 25px;
-    margin-top: 145px;
     margin-bottom: 100px;
 }
 
 .product-description > .item {
-    font-style: 20px;
+    font-size: 20px;
     margin-bottom: 28px;
 }
 
@@ -29,7 +19,7 @@
 }
 
 .product-description > .item.-last {
-    margin-bottom: 70px;
+    margin-bottom: 72px;
 }
 
 .product-description .contrast {
@@ -38,13 +28,9 @@
 }
 
 .product-description > .text {
-    font-style: 18px;
+    font-size: 18px;
     line-height: 30px;
     margin-bottom: 30px;
-}
-
-.product-description > .text.-more {
-    margin-bottom: 98px;
 }
 
 .product-description .action {
