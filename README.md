@@ -182,3 +182,13 @@ Entretanto, como é apenas uma classe secundária que está implementando uma cl
 `Description list (dl), Description title (dt), Description define (dd)`
 
 Quando for realizar a descrição de um produto ou qualquer outra coisa existe as tags acima.
+
+`Escolhendo exatamente o elemento abaixo de outro`
+
+Para isso é necessário colocar o sinal de `+` antes da classe do elemento seguinte.
+
+```
+.product-description > .item.-star + .item {
+    margin-left: 8px;
+}
+```
