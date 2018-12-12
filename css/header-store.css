@@ -18,6 +18,18 @@
     float: right;
 }
 
+.header-store [type="search"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: inherit;
+    font-family: Arial, "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    width: 358px;
+    margin-right: 65px;
+}
+
 .header-store .action {
     text-decoration: none;
     color: inherit;
@@ -26,19 +38,4 @@
 
 .header-store .action.-last {
     margin-right: 0;
-}
-
-.header-store > .search {
-    display: inline-block;
-    width: 85%;
-    position: absolute;
-    text-align: center;
-}
-
-input {
-    width: 358px;
-    background-color: transparent;
-    font-size: 20px;
-    color: #fff;
-    font-family: Arial, "Roboto", sans-serif;
 }
