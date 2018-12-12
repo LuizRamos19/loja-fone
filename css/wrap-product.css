@@ -3,3 +3,11 @@
     width: 554px;
     vertical-align: middle;
 }
+
+.wrap-button {
+    margin-top: 98px;
+    width: 554px;
+    float: right;
+    text-align: left;
+    position: absolute;
+}
