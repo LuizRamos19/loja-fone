@@ -2,12 +2,11 @@
     display: inline-block;
     width: 554px;
     vertical-align: middle;
+    position: relative;
 }
 
-.wrap-button {
-    margin-top: 98px;
-    width: 554px;
-    float: right;
-    text-align: left;
+.wrap-product .buttons {
+    bottom: 0;
     position: absolute;
+    transform: translateY( calc(100% + 98px) );
 }
