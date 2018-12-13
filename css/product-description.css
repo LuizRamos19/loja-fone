@@ -18,6 +18,10 @@
     height: 24px;
 }
 
+.product-description img {
+    cursor: pointer;
+}
+
 .product-description > .item.-star + .item {
     margin-left: 8px;
 }
