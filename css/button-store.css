@@ -23,6 +23,16 @@
 	cursor: pointer;
 }
 
+.button-store.-second:hover {
+	background-color: #fff;
+	color: red;
+}
+
+.button-store:hover {
+	background-color: #fff;
+	color: blue;
+}
+
 .button-store > button,
 .button-store > a {
 	font-size: inherit;
