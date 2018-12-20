@@ -20,9 +20,17 @@
     left: -47px;
 }
 
+.product-description > .item.-heart:hover {
+    transform: scale(1.5) translateX(-70%);
+}
+
 .product-description > .item.-star {
     margin-bottom: 10px;
     height: 24px;
+}
+
+.product-description > .item.-star:hover {
+    transform: scale(1.1) translateX(5%);
 }
 
 .product-description img {
