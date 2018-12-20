@@ -10,11 +10,3 @@
     position: absolute;
     transform: translateY( calc(100% + 98px) );
 }
-
-.wrap-product > .heart {
-    width: 33px;
-    height: 29px;
-    position: absolute;
-    padding-right: 10px;
-    transform: translateX(-47px) translateY(9px);
-}
