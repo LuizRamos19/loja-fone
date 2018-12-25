@@ -192,3 +192,7 @@ Para isso é necessário colocar o sinal de `+` antes da classe do elemento segu
     margin-left: 8px;
 }
 ```
+
+`Affordance, um pouco de UX`
+
+Fácil de usar e intuitivo. Todo desenvolvedor front-end precisa se perguntar se o que está sendo desenvolvido tem essas duas qualidades para o usuário. Isso é `_Affordance_`.

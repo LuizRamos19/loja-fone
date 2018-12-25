@@ -27,14 +27,11 @@
 .product-description > .item.-star {
     margin-bottom: 10px;
     height: 24px;
+    cursor: pointer;
 }
 
 .product-description > .item.-star:hover {
     transform: scale(1.1) translateX(5%);
-}
-
-.product-description img {
-    cursor: pointer;
 }
 
 .product-description > .item.-star + .item {
