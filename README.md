@@ -196,3 +196,20 @@ Para isso é necessário colocar o sinal de `+` antes da classe do elemento segu
 `Affordance, um pouco de UX`
 
 Fácil de usar e intuitivo. Todo desenvolvedor front-end precisa se perguntar se o que está sendo desenvolvido tem essas duas qualidades para o usuário. Isso é `_Affordance_`.
+
+`HTTP`
+
+Protocolo é o padrão estabelecido para se comunicar com o servidor. 
+
+Requisição e resposta.
+
+http://facebook.com/luiz.ramos/posts?id=1&text=true;
+
+http:// -> Protocolo de comunicação
+facebook.com/ -> Dominio
+luiz.ramos/posts?id=1&text=true -> Path/caminho ou recurso (mais utilizado quando se trata de API)
+?id=1&text=true - > Esses dados são chamados de `_Query String_`
+
+`HTTPS`
+
+Neste protocolo, diferente do `HTTP`, os dados são criptografados por uma chave pública e descriptografados por uma chave privada, onde cada servidor ou máquina de destino possui a sua própria.
