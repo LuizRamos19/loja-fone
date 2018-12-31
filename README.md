@@ -213,3 +213,8 @@ luiz.ramos/posts?id=1&text=true -> Path/caminho ou recurso (mais utilizado quand
 `HTTPS`
 
 Neste protocolo, diferente do `HTTP`, os dados são criptografados por uma chave pública e descriptografados por uma chave privada, onde cada servidor ou máquina de destino possui a sua própria.
+
+`SSH`
+
+Criar um túnel de comunicação entre o cliente e o servidor.
+Segue o mesmo princípio de chave públic e privada do protocolo `_HTTP_`.
