@@ -218,3 +218,13 @@ Neste protocolo, diferente do `HTTP`, os dados são criptografados por uma chave
 
 Criar um túnel de comunicação entre o cliente e o servidor.
 Segue o mesmo princípio de chave públic e privada do protocolo `_HTTP_`.
+
+`Propriedade after do CSS`
+
+Para criarmos alguns componentes tais como borda ou outros atrativos dinâmicos que serão apenas visuais para o usuário e não receberão nenhum conteúdo, o correto não é criar classes no html apenas para conseguirmos pegar o atributo no CSS, o correto é utilizar a propriedade after do próprio CSS que cria componentes para nós junto com `content: "";`. Acessar o commit [Criando borda dinâmica](https://fonts.google.com/ "Clique e acesse agora!")
+
+```
+.header-store .action:after {
+    content: "";
+}
+```
