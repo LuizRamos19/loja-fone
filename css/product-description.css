@@ -31,8 +31,12 @@
     cursor: pointer;
 }
 
-.product-description > .item.-star:hover {
-    transform: scale(1.1) translateX(5%);
+.product-description .icon {
+    transition: transform 100ms linear;
+}
+
+.product-description .icon:hover {
+    transform: scale(1.2);
 }
 
 .product-description > .item.-star + .item {
