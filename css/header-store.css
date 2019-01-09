@@ -81,6 +81,12 @@
     }
 }
 
+@media (max-width: 1255px) {
+    .header-store {
+        margin-bottom: 65px;
+    }
+}
+
 @media (max-width: 980px) {
     .header-store {
         padding-left: 30px;
