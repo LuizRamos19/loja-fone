@@ -26,3 +26,9 @@
         margin-right: auto;
     }
 }
+
+@media (max-width: 1255px) {
+    .container-store {
+        padding: 55px 0 165px 0;
+    }
+}
