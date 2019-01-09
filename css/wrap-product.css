@@ -5,8 +5,23 @@
     position: relative;
 }
 
-.wrap-product .buttons {
+.wrap-product > .buttons {
     bottom: 0;
     position: absolute;
     transform: translateY( calc(100% + 98px) );
+}
+
+@media (max-width: 1255px) {
+    .wrap-product {
+        width: 100%;
+    }
+
+    .wrap-product > .buttons {
+        position: static;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        transform: none;
+    }
 }
