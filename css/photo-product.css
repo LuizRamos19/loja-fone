@@ -11,13 +11,16 @@
 
 @media (max-width: 1270px) {
     .photo-product {
-        margin-right: 100px;
+        margin-right: 140px;
     }
 }
 
 @media (max-width: 1255px) {
     .photo-product {
         display: block;
+        margin-right: 0;
+        border-radius: 0;
         text-align: center;
+        margin-bottom: 30px;
     }
 }
