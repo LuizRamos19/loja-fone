@@ -8,3 +8,16 @@
     margin-right: 157px;
     cursor: pointer;
 }
+
+@media (max-width: 1270px) {
+    .photo-product {
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 1255px) {
+    .photo-product {
+        display: block;
+        text-align: center;
+    }
+}
