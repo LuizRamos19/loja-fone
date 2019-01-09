@@ -228,3 +228,37 @@ Para criarmos alguns componentes tais como borda ou outros atrativos dinâmicos 
     content: "";
 }
 ```
+
+`Valor de especificidade`
+
+Na prática, os seletores que foram declarados primeiro, serão sobrescritos pelos seletores que forem declarados posteriormente.
+
+Um seletor de `_tag_` tem valor de especificidade igual a 1, selector de `_class_` tem valor de especificidade igual a 10, um seletor de `_id_` tem valor de especificidade igual a 100.
+
+Se temos um seletor declarado acima de outro seletor no código CSS que possui um valor de especificidade maior do que o que foi declarado posteriormente, significa que o que foi declarado posteriormente não irá sobrescrever o que foi declarado antes.
+
+```
+nav#navigation-collab.navigation-collab {
+    /* 1 + 100 + 10 = 111 */ Valor de especificadade
+    color: red;
+}
+
+nav.navigation-collab ul li.item a {
+    /* 1 + 10 + 1 + 1 + 10 + 1 = 24 */
+    font-size: 50px;
+}
+
+.navigation-collab .action {
+    color: inherit;
+}
+
+nav#navigation-collab.navigation-collab {
+    /* 1 + 10 = 11 */
+    color: blue;
+}
+
+nav#navigation-collab:hover {
+    /* 1 + 100 + 10 = 111*/
+    color: magenta;
+}
+```
