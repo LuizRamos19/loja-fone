@@ -262,3 +262,19 @@ nav#navigation-collab:hover {
     color: magenta;
 }
 ```
+
+`
+Pixel físico vs pixel CSS
+`
+
+Pixel físico nada mais é do que a resolução física de uma tela. Por exemplo, na especificações do celular, diz que a resolução é de 1340x720 pixels.
+
+Pixel do CSS nada mais é do que a resolução virtual do próprio CSS chamado de `_device width_`. Este conseguimos controlar com o CSS.
+
+Para utilizar a resolução do device width de cada dispositivo basta adicionar a meta tag abaixo no header do HTML.
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+```
+
+O initial-scale=1.0 é para sempre que o usuário sair e entrar novamente no site, o site tirar todo o zoom. Isso ocorre porque quando um user dá zoom, o browser guarda esse zoom até o próximo acesso do user no site. Colocando o `_initial-scale=1.0_`, toda a vez que o user acessar o site, irá retirar o zoom da tela.
