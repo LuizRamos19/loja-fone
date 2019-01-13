@@ -9,14 +9,23 @@ const $star = document.querySelector('.-star').querySelectorAll('.icon');
 
 $heart.addEventListener('click', handleClick);
 for (let i = 0; i < $star.length; i++) {
-    $star[i].addEventListener('click', handleStarClick);
+    $star[i].addEventListener('click', handleStarClick(i));
 }
 
 function handleClick() {
     $heart.classList.toggle('-active');
 }
 
-
-function handleStarClick() {
-    this.src = 'img/empty-star.png';
+function handleStarClick(index) {
+    return function () {
+        if (this.classList.contains('-active')) {
+            this.src = 'img/empty-star.png';
+            this.classList.remove('-active');
+        } else {
+            for (let i = 0; i <= index; i++) {
+                $star[i].src = 'img/star.png';
+                $star[i].classList.add('-active')
+            }
+        }
+    }    
 }
