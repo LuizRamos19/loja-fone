@@ -5,7 +5,6 @@
 // 5 - No momento que o user clicar, mostrar um ae na tela
 
 const $heart = window.document.querySelector('.-heart');
-const $cartLink = window.document.querySelector('.action.-last');
 
 $heart.addEventListener('click', handleClick);
 
