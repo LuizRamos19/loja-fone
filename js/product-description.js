@@ -6,6 +6,8 @@
 
 const $heart = window.document.querySelector('.-heart');
 const $cart = window.document.querySelector('.-second');
+const $cartLink = window.document.querySelector('.action.-last');
+
 console.log($cart);
 
 $heart.addEventListener('click', handleClick);
@@ -17,4 +19,5 @@ function handleClick() {
 
 function handleCartClick() {
     console.log('User clicou no botão de adicionar no carrinho');
+    $cartLink.textContent = 'Mudou';
 }
