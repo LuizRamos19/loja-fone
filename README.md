@@ -197,28 +197,6 @@ Para isso é necessário colocar o sinal de `+` antes da classe do elemento segu
 
 Fácil de usar e intuitivo. Todo desenvolvedor front-end precisa se perguntar se o que está sendo desenvolvido tem essas duas qualidades para o usuário. Isso é `_Affordance_`.
 
-`HTTP`
-
-Protocolo é o padrão estabelecido para se comunicar com o servidor. 
-
-Requisição e resposta.
-
-http://facebook.com/luiz.ramos/posts?id=1&text=true;
-
-http:// -> Protocolo de comunicação
-facebook.com/ -> Dominio
-luiz.ramos/posts?id=1&text=true -> Path/caminho ou recurso (mais utilizado quando se trata de API)
-?id=1&text=true - > Esses dados são chamados de `_Query String_`
-
-`HTTPS`
-
-Neste protocolo, diferente do `HTTP`, os dados são criptografados por uma chave pública e descriptografados por uma chave privada, onde cada servidor ou máquina de destino possui a sua própria.
-
-`SSH`
-
-Criar um túnel de comunicação entre o cliente e o servidor.
-Segue o mesmo princípio de chave públic e privada do protocolo `_HTTP_`.
-
 `Propriedade after do CSS`
 
 Para criarmos alguns componentes tais como borda ou outros atrativos dinâmicos que serão apenas visuais para o usuário e não receberão nenhum conteúdo, o correto não é criar classes no html apenas para conseguirmos pegar o atributo no CSS, o correto é utilizar a propriedade after do próprio CSS que cria componentes para nós junto com `content: "";`. Acessar o commit [Criando borda dinâmica](https://github.com/LuizRamos19/loja-fone/commit/e415b94fba443353081d097b7fa6762aa6e79e3c "Clique e acesse agora!")
@@ -278,3 +256,46 @@ Para utilizar a resolução do device width de cada dispositivo basta adicionar 
 ```
 
 O initial-scale=1.0 é para sempre que o usuário sair e entrar novamente no site, o site tirar todo o zoom. Isso ocorre porque quando um user dá zoom, o browser guarda esse zoom até o próximo acesso do user no site. Colocando o `_initial-scale=1.0_`, toda a vez que o user acessar o site, irá retirar o zoom da tela.
+
+#Protocolos de internet HTTP
+
+`HTTP`
+
+Protocolo é o padrão estabelecido para se comunicar com o servidor. 
+
+Requisição e resposta.
+
+http://facebook.com/luiz.ramos/posts?id=1&text=true;
+
+http:// -> Protocolo de comunicação
+facebook.com/ -> Dominio
+luiz.ramos/posts?id=1&text=true -> Path/caminho ou recurso (mais utilizado quando se trata de API)
+?id=1&text=true - > Esses dados são chamados de `_Query String_`
+
+`HTTPS`
+
+Neste protocolo, diferente do `HTTP`, os dados são criptografados por uma chave pública e descriptografados por uma chave privada, onde cada servidor ou máquina de destino possui a sua própria.
+
+`SSH`
+
+Criar um túnel de comunicação entre o cliente e o servidor.
+Segue o mesmo princípio de chave públic e privada do protocolo `_HTTP_`.
+
+#JavaScript
+
+Basicamente, um site é composto pelas 3 linguagens: HTML, CSS e JavaScript
+
+```
+- HTML: Cuida do conteúdo (Foto, vídeo, texto, etc) de forma semântica, ou seja, por meio de tags tais como <H1>, <p>. A partir do HTML5 o HTML começa a cuidar também da estrutura, por meio das tags <article>, <header>, <footer>, etc.
+- CSS: Tudo o que é visual. No CSS3, o CSS passou a cuidar também da animação.
+- JavaScript: Cuida da parte do comportamento da página e da interação do usuário, ou seja, conforme o user interage com a página, conseguimos mudar alguns comportamentos dos componentes.
+```
+
+O comando `_window_` consegue pegar toda a janela (browser). É esse comando que consegue pegar o scroll da tela, o tamanho do width da tela, etc.
+
+O comando `_window.document_` pega a estrutura do HTML.
+
+O comando `_window.document.querySelector()_` serve para selecionar um elemento da janela, seja ele um seletor de tag, de classe, etc.
+
+Por boa prática, qualquer variável que for guardar o elemento de um HTML, deve ser declarado com `_$_` antes do nome da variável.
+
