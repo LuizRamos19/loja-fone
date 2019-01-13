@@ -9,7 +9,12 @@ const $cart = window.document.querySelector('.-second');
 console.log($cart);
 
 $heart.addEventListener('click', handleClick);
+$cart.addEventListener('click', handleCartClick);
 
-function handleClick () {
+function handleClick() {
     console.log('message');
+}
+
+function handleCartClick() {
+    console.log('User clicou no botão de adicionar no carrinho');
 }
