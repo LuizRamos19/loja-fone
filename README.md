@@ -299,3 +299,9 @@ O comando `_window.document.querySelector()_` serve para selecionar um elemento 
 
 Por boa prática, qualquer variável que for guardar o elemento de um HTML, deve ser declarado com `_$_` antes do nome da variável.
 
+O comando `_classList.toggle_` serve para verificar se uma classe existe naquele elemento do qual está fazendo referência e se existir, ele remove, caso contrário, adiciona. Serve para substituir um if para realizar esta ação.
+
+```
+$hear.classList.toggle('-active');
+```
+

@@ -21,6 +21,10 @@
     cursor: pointer;
 }
 
+.product-description > .item.-active {
+    background-color: #fff;
+}
+
 .product-description > .item.-heart:hover {
     transform: scale(1.5) translateX(-70%);
 }
