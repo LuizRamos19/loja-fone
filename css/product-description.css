@@ -19,15 +19,17 @@
     top: 5px;
     left: -47px;
     cursor: pointer;
+    width: 33px;
+    height: 29px;
 }
 
 .product-description > .item.-active {
-    background-color: #fff;
+    background-color: black;
 }
 
-.product-description > .item.-heart:hover {
+/* .product-description > .item.-heart:hover {
     transform: scale(1.5) translateX(-70%);
-}
+} */
 
 .product-description > .item.-star {
     margin-bottom: 10px;
@@ -36,11 +38,23 @@
 }
 
 .product-description .icon {
-    transition: transform 100ms linear;
+    transition: transform 50ms linear;
 }
 
 .product-description .icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.product-description .icon.-active {
+    display: none;
+}
+
+.product-description > .item.-active .icon {
+    display: none;
+}
+
+.product-description > .item.-active .icon.-active {
+    display: block;
 }
 
 .product-description > .item.-star + .item {
