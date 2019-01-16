@@ -5,27 +5,14 @@
 // 5 - No momento que o user clicar, mostrar um ae na tela
 
 const $heart = window.document.querySelector('.-heart');
-const $star = document.querySelector('.-star').querySelectorAll('.icon');
+const $stars = document.querySelectorAll('.star');
+
+$stars.forEach(function($star) {
+    $star.addEventListener('click', handleClick);
+});
 
 $heart.addEventListener('click', handleClick);
-for (let i = 0; i < $star.length; i++) {
-    $star[i].addEventListener('click', handleStarClick(i));
-}
 
 function handleClick() {
-    $heart.classList.toggle('-active');
-}
-
-function handleStarClick(index) {
-    return function () {
-        if (this.classList.contains('-active')) {
-            this.src = 'img/empty-star.png';
-            this.classList.remove('-active');
-        } else {
-            for (let i = 0; i <= index; i++) {
-                $star[i].src = 'img/star.png';
-                $star[i].classList.add('-active')
-            }
-        }
-    }    
+    this.classList.toggle('-active');
 }

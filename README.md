@@ -305,3 +305,10 @@ O comando `_classList.toggle_` serve para verificar se uma classe existe naquele
 $hear.classList.toggle('-active');
 ```
 
+Função anônima é aquela função que não possui nome.
+
+```
+$stars.forEach(function () {
+    console.log('Teste');
+});
+```
