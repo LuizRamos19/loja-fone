@@ -23,10 +23,6 @@
     height: 29px;
 }
 
-.product-description > .item.-active {
-    background-color: black;
-}
-
 /* .product-description > .item.-heart:hover {
     transform: scale(1.5) translateX(-70%);
 } */
