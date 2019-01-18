@@ -125,7 +125,7 @@
     }
 
     .product-description > .item.-heart {
-        left: initial;
+        left: auto;
         transform: translateX(4px);
     }
 }
@@ -139,6 +139,6 @@
 
 @media (max-width: 445px) {
     .product-description > .item.-heart {
-        transform: translateY(36px) translateX(4px);
+        position: static;
     }
 }
