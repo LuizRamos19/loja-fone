@@ -142,6 +142,14 @@ Para relacionar os elementos de forma dinâmica, podemos utilizar a propriedade 
 transform: translateX(-50%) translateY(-50%);
 ```
 
+`Transition`
+
+Essa propriedade consegue animar qualquer ação que estiver sendo executada, como por exemplo um transform. Com a sintaxe abaixo, o transition consegue retardar ou avançar o tempo que a transação do transform ocorre. E isso pode ser realizado por outras propriedades além do transform. No exemplo abaixo estou dizendo que a propriedade transform irá ter sua transação no tempo de 200 milissegundos e de forma linear. Se não quiser especificar a propriedade que irá receber esse transition, pode deixar em branco, porque o default dessa propriedade transition é `_all_`.
+
+```
+transition: transform 200ms linear;
+```
+
 O _`vertical-align`_ faz com que dois elementos que sejam `display inline-block` fiquem alinhados verticalmente.
 ```
 vertical-align: top;
