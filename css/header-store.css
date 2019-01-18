@@ -38,7 +38,7 @@
 }
 
 .header-store .search {
-	display: none;
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -46,6 +46,19 @@
 }
 
 .header-store .search.-active {
+  display: none;
+}
+
+.header-store .close {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 200ms linear;
+}
+
+.header-store .close.-active {
+  display: inline;
   left: auto;
   transform: translateX(300%);
   transition: transform 200ms cubic-bezier(0, 0, 0.96, 1.26);
