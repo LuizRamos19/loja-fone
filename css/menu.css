@@ -1,0 +1,28 @@
+.menu {
+    display: none;
+}
+
+.menu > .icon {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+}
+
+.header-store .action.-active {
+    display: block;
+}
+
+@media (max-width: 335px) {
+    .menu {
+        display: inline-block;
+    }
+
+    .navigation > .menu .icon {
+        display: inline-block;
+    }
+}
