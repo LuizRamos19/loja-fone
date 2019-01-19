@@ -320,3 +320,12 @@ $stars.forEach(function () {
     console.log('Teste');
 });
 ```
+
+A tag `_form_` adiciona um evento de envio de informações para o browser, isso significa que se ao momento de clicar em algum botão ou input dentro de um elemento com a tag form, o browser direciona o usuário para outro lugar; se não estipularmos para onde direcionar o usuário no momento do click, a tela irá carregar automaticamente. Para evitar esse comportamento dentro do JavaScript tem a propriedade a `_preventDefault()_`. O evento que se passa como parâmetro é o evento do form de recarregar a página.
+
+```
+$icon.addEventListener('click', event =>  {
+    event.preventDefault();
+    $inputSearch.classList.toggle('-active');
+});
+```
