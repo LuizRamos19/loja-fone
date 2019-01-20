@@ -31,12 +31,18 @@
                     <input class="icon -open -active" type="image" src="img/search.png">
                     <input class="icon -close" type="image" src="img/close.png">
                 </form>
-                <form class="menu">
-                    <input class="icon" type="image" src="img/menu.svg">
-                </form>
-                <a class="action" href="http://collabcode.training">Produtos</a>
-                <a class="action" href="http://collabcode.training">Serviços</a>
-                <a class="action -last" href="http://collabcode.training">Carrinho (10)</a>
+                <ul id="menu" class="list">
+                    <li class="item -menu"><a href="#menu" class="menu">Menu</a></li>
+                    <li class="item">
+                        <a class="action" href="http://collabcode.training">Produtos</a>
+                    </li>
+                    <li class="item">
+                        <a class="action" href="http://collabcode.training">Serviços</a>
+                    </li>
+                    <li class="item -last">
+                        <a class="action" href="http://collabcode.training">Carrinho (10)</a>
+                    </li class="item">
+                </ul>
             </nav>
         </header>
 
@@ -99,7 +105,7 @@
     <script src="js/product-description.js"></script>
     <script src="js/home.js"></script>
     <script src="js/input-search.js"></script>
-    <script src="js/menu.js"></script>
+    <script src="js/header-store.js"></script>
 </body>
 
 </html>
