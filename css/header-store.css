@@ -19,8 +19,8 @@
     float: right;
 }
 
-.header-store .menu {
-    display: none;
+.header-store .list {
+	display: inline;
 }
 
 .header-store .item {
