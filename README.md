@@ -329,3 +329,17 @@ $icon.addEventListener('click', event =>  {
     $inputSearch.classList.toggle('-active');
 });
 ```
+
+`Fazendo deploy no ghpages`
+
+Para realizar o deploy de um projeto no ghpages, basta seguir o tutorial do site e para copiar a pasta do seu projeto para dentro do repositório criado realizar os seguintes comandos:
+
+```
+Copiar a pasta com:
+cp -r loja-fone luizramos19.github.io/.
+
+Entrar na pasta luizramos19.github.io, entrar na pasta loja-fone e deletar o repositório .git com o seguinte comando:
+rm -r .git/
+
+Em seguida commitar e só
+```
